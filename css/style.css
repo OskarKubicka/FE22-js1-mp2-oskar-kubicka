@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Sigmar One, sans-serif;
+    color: hsl(264, 95%, 30%);
+    background-color: hsl(150, 60%, 60%);
+}
+
+
+#div1 {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+#div2 {
+    display: none;
+}
+
+#valet {
+    border: solid 5px hsl(150, 60%, 40%);
+    margin: 0 30vw 0 30vw;
+    border-radius: 15px;
+}
+
+
+#divDator1 {
+    align-self: center;
+    display: flex;
+}
+
+#divDator2 {
+    align-self: center;
+    display: flex;
+}
+
+#img-sten {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+
+}
+
+#img-sax {
+    width: 100px;
+    margin: 20px;
+    align-self: center;
+
+}
+
+#img-pase {
+    width: 60px;
+    margin: 20px;
+    align-self: center;
+}
+
+#img-sten-hide {
+    width: 100px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#img-sax-hide {
+    width: 100px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#img-pase-hide {
+    width: 60px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#img-sten-hide2 {
+    width: 100px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#img-sax-hide2 {
+    width: 100px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#img-pase-hide2 {
+    width: 60px;
+    margin: 20px;
+    display: none;
+    align-self: center;
+}
+
+#spelarval {
+    color: hsl(103, 55%, 22%);
+}
+
+#spelarpoint {
+    color: hsl(103, 55%, 22%);
+}
+
+#datorpoint {
+    color: hsl(8, 94%, 36%);
+}
+
+#datorval {
+    color: hsl(8, 94%, 36%);
+}
+
+
+
+#form {
+    display: flex;
+    flex-flow: row;
+    width: 30vw;
+    align-self: center;
+}
+
+#input {
+    width: 20vw;
+    border: hsl(264, 95%, 30%) solid 2px;
+    border-radius: 5px;
+    margin: 20px 0 20px 0;
+
+    align-self: center;
+}
+
+#player-name-button {
+    width: 10vw;
+    margin: 20px;
+    height: 10vh;
+    background-color: hsl(284, 91%, 68%);
+    border: solid 4px hsl(264, 95%, 30%);
+    border-radius: 5px;
+    align-self: center;
+
+}
+
+#titel {
+    color: hsl(320, 100%, 30%);
+}
+
+#dator1 {
+    align-self: center;
+    display: flex;
+}
+
+#dator2 {
+    align-self: center;
+    display: flex;
+}
